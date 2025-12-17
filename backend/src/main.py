@@ -29,7 +29,7 @@ async def lifespan(app: FastAPI):
 settings = get_settings()
 app = FastAPI(
     title="Colab AI Coder API",
-    description="Assistant IA complet basé sur Qwen-2.5-Coder",
+    description="Assistant IA complet basé sur Qwen-2.5-Coder 7B Q4_K_M",
     version="0.1.0",
     lifespan=lifespan,
 )
